@@ -1,0 +1,76 @@
+.location {
+  width: 100%;
+  background: #fdf6ec;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  box-sizing: remder-box;
+  margin-top: 8rem;
+}
+
+.location__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 85%;
+  max-width: 900px;
+}
+
+.location__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.9rem 1.5rem;
+  background: #e8797f;
+  color: #ffffff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  box-shadow: 0 4px 14px rgba(232, 121, 127, 0.35);
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  /* ✅ NO pongas pointer-events aquí, ya es auto por defecto */
+}
+
+.location__btn:hover {
+  background: #d96269;
+  box-shadow: 0 6px 18px rgba(217, 98, 105, 0.45);
+}
+
+.location__icon {
+  width: 1.25em;
+  height: 1.25em;
+  flex-shrink: 0;
+  color: #ffffff;
+  display: block;
+}
+
+.location__text {
+  line-height: 1;
+}
+
+/* 📱 Móvil */
+@media (max-width: 640px) {
+  .location {
+    padding: 1.25rem 1rem;
+  }
+
+  .location__grid {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .location__btn {
+    padding: 0.85rem 1.25rem;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+}

@@ -6,25 +6,29 @@
   align-items: center;
   padding: 1.5rem 1rem;
   box-sizing: border-box;
+  margin-bottom: 0;
 }
 
 .legend__img {
-  width: 95%;              /* 👈 no abarca todo, deja aire a los lados */
-  max-width: 900px;        /* 👈 límite en monitores grandes */
+  width: 95%;            
+  max-width: 900px;      
   height: auto;
   display: block;
   object-fit: contain;
   user-select: none;
   pointer-events: none;
+  margin-bottom: 0;
 }
 
 /* 📱 Móvil */
 @media (max-width: 768px) {
   .legend {
     padding: 1rem 0.75rem;
+    margin-bottom: 0;
   }
 
   .legend__img {
-    width: 95%;            /* en móvil sí casi todo el ancho */
+    width: 95%;
+    margin-bottom: 0;           /* en móvil sí casi todo el ancho */
   }
 }
