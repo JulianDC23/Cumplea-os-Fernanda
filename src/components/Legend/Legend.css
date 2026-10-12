@@ -1,0 +1,30 @@
+.legend {
+  width: 100%;
+  background: #fdf6ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.legend__img {
+  width: 95%;              /* 👈 no abarca todo, deja aire a los lados */
+  max-width: 900px;        /* 👈 límite en monitores grandes */
+  height: auto;
+  display: block;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* 📱 Móvil */
+@media (max-width: 768px) {
+  .legend {
+    padding: 1rem 0.75rem;
+  }
+
+  .legend__img {
+    width: 95%;            /* en móvil sí casi todo el ancho */
+  }
+}

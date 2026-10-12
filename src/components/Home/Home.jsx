@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import './Home.css'
 import invitation from '../../assets/mis3años.svg'
 import invitation1 from '../../assets/imageprueba.png'
+import Countdown from '../Countdown/Countdown'
+import Legend from '../Legend/Legends'
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
           transition={{ duration: 1, ease: 'easeOut' }}
         />
       </section>
+      <Legend />
+      <Countdown />
     </main>
    </>
   )
