@@ -8,7 +8,7 @@ function LocationButtons() {
 
         {/* Botón de la ceremonia */}
         <motion.a
-          href="https://www.google.com/maps/place/Cda.+Emiliano+Zapata+7,+Pueblo+Nuevo,+56723+San+Rafael,+M%C3%A9x./@19.2059134,-98.7701474,2477a,87.4y,14.37h,70.65t/data=!3m7!1e1!3m5!1su2Kh3u72WLGNKJmQu05KPw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D19.34754001860287%26panoid%3Du2Kh3u72WLGNKJmQu05KPw%26yaw%3D14.369811097277875!7i16384!8i8192!4m15!1m8!3m7!1s0x85ce230d2d096183:0x322596359abd72b6!2sCda.+Emiliano+Zapata+7,+Pueblo+Nuevo,+56723+San+Rafael,+M%C3%A9x.!3b1!8m2!3d19.2060519!4d-98.7703049!16s%2Fg%2F11wb1s57r4!3m5!1s0x85ce230d2d096183:0x322596359abd72b6!8m2!3d19.2060519!4d-98.7703049!16s%2Fg%2F11wb1s57r4?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps/@19.2303101,-98.8103623,2304a,90y,152.55h,98.48t/data=!3m7!1e1!3m5!1skmdgDyXPF8gVqS-HQ1S2hA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-8.481557970795649%26panoid%3DkmdgDyXPF8gVqS-HQ1S2hA%26yaw%3D152.55447002312832!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           className="location__btn"
@@ -35,7 +35,7 @@ function LocationButtons() {
 
         {/* Botón de la recepción */}
         <motion.a
-          href="https://www.google.com/maps/place/Campo+deportivo+San+Rafael/@19.2079896,-98.761475,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce233544266309:0x9b6002586c064f49!8m2!3d19.2079896!4d-98.7589001!16s%2Fg%2F11l20qg92j?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps/place/Cocina+%22Las+delicias%22+de+Miraflores/@19.226973,-98.81129,2330a,75y,81.94h,78.27t/data=!3m7!1e1!3m5!1shv_rCPZqullj0-LTRm7wjA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D11.730000000000004%26panoid%3Dhv_rCPZqullj0-LTRm7wjA%26yaw%3D81.94!7i16384!8i8192!4m7!3m6!1s0x85ce23006b186c87:0x6e0beca008006a2a!8m2!3d19.2269835!4d-98.8112084!10e5!16s%2Fg%2F11mslzbk54?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           className="location__btn"
