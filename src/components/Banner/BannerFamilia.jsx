@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import './BannerFamilia.css'
-import bannerFamilia from '../../assets/BannerFam.png'
+import bannerFamilia2 from '../../assets/BannerFam.png'
+import bannerFamilia from '../../assets/BannerFam2.png'
 
 function BannerFamilia() {
   return (
