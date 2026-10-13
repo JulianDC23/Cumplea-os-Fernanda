@@ -4,8 +4,7 @@
   padding: 0;
   background: #fdf6ec;
   display: block;
-  box-sizing: border-box;
-  overflow: hidden;
+  line-height: 0;
 }
 
 .banner-footer__img {
@@ -15,6 +14,7 @@
   height: auto;
   object-fit: contain;
   margin: 0;
+  padding: 0;
   user-select: none;
   pointer-events: none;
 }
@@ -22,10 +22,13 @@
 /* 📱 Móvil */
 @media (max-width: 768px) {
   .banner-footer {
-    padding: 0;
+    padding: 0.5rem 0.5rem 1rem;
   }
 
   .banner-footer__img {
     width: 100%;         /* en móvil sí todo el ancho */
+    height: auto;
+    min-height: 80px;
+    object-fit: contain;
   }
 }

@@ -27,7 +27,7 @@ function Home() {
       <Countdown />
       <BannerFamilia />
       <Sites />
-      {/* <LocationButtons /> */}
+      <LocationButtons />
       <Footer />
     </main>
    </>

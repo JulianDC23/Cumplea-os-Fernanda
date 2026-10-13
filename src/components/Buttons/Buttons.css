@@ -4,14 +4,14 @@
   display: flex;
   justify-content: center;
   padding: 1.5rem 1rem;
-  box-sizing: remder-box;
-  margin-top: 8rem;
+  box-sizing: border-box;   /* ✅ corregido (era remder-box) */
+  margin-top: 2rem;         /* ✅ margen razonable, no 8rem */
 }
 
 .location__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 15rem;
   width: 85%;
   max-width: 900px;
 }
@@ -35,7 +35,6 @@
   cursor: pointer;
   white-space: nowrap;
   -webkit-tap-highlight-color: transparent;
-  /* ✅ NO pongas pointer-events aquí, ya es auto por defecto */
 }
 
 .location__btn:hover {
@@ -55,22 +54,42 @@
   line-height: 1;
 }
 
-/* 📱 Móvil */
+/* 📱 Móvil — SIGUEN HORIZONTALES */
 @media (max-width: 640px) {
   .location {
-    padding: 1.25rem 1rem;
+    padding: 0;
+    margin-top: 1rem;
   }
 
   .location__grid {
-    grid-template-columns: 1fr;
-    gap: 0.85rem;
-    width: 100%;
-    max-width: 340px;
+    grid-template-columns: repeat(2, 1fr); /* ✅ 2 columnas, no 1 */
+    gap: 6rem;                            /* ✅ menos espacio entre botones */
+    width: 90%;                             /* ✅ más ancho */
+    max-width: none;
   }
 
   .location__btn {
-    padding: 0.85rem 1.25rem;
-    font-size: 1rem;
-    min-height: 48px;
+    padding: 1rem 0.8rem;   /* ✅ menos padding */
+    font-size: 0.8rem;        /* ✅ texto más chico para que quepa */
+    min-height: 44px;         /* ✅ táctil cómodo */
+    gap: 0.4rem;
+  }
+
+  .location__icon {
+    width: 1rem;
+    height: 0.6rem;
+  }
+}
+
+/* 📱 Extra: pantallas MUY chicas (iPhone SE, etc) */
+@media (max-width: 380px) {
+  .location__btn {
+    font-size: 0.72rem;
+    padding: 0.65rem 0.5rem;
+  }
+
+  .location__icon {
+    width: 0.85rem;
+    height: 0.85rem;
   }
 }
