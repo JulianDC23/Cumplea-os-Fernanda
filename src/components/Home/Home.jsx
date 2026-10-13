@@ -6,6 +6,7 @@ import Countdown from '../Countdown/Countdown'
 import Legend from '../Legend/Legends'
 import LocationButtons from '../Buttons/Buttons'
 import BannerFamilia from '../Banner/BannerFamilia'
+import Sites from '../Sites/Sites'
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <Legend />
       <Countdown />
       <BannerFamilia />
+      <Sites />
       <LocationButtons />
     </main>
    </>
