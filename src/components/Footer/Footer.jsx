@@ -1,26 +1,22 @@
-// import { motion } from 'framer-motion'
-// import './Footer.css'
-// import footer from '../../assets/footer.png'
+import { motion } from 'framer-motion'
+import './Footer.css'
+import Footersalmo from '../../assets/footer.png'
 
-// function Home() {
-//   return (
-//    <>
-//      <main className="home">
-//       <section className="hero">
-//         <motion.img
-//           src={footer}
-//           alt="Salmo"
-//           className="hero-img"
-//           initial={{ opacity: 0, y: 30 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 1, ease: 'easeOut' }}
-//         />
-//       </section>
-//       <Legend />
-//       <Countdown />
-//     </main>
-//    </>
-//   )
-// }
+function Footer() {
+  return (
+    <section className="banner-footer">
+      <motion.img
+        src={Footersalmo}
+        alt="Salmo"
+        className="banner-footer__img"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.4 }}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
+        draggable="false"
+      />
+    </section>
+  )
+}
 
-// export default Footer
+export default Footer

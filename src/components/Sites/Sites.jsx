@@ -7,7 +7,7 @@ function Sites() {
     <section className="banner-sites">
       <motion.img
         src={bannerSites}
-        alt="Pápas y Padrinos de Fernanda Zoe"
+        alt="Misa y Recepcion"
         className="banner-sites__img"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

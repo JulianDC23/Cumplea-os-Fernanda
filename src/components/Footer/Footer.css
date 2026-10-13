@@ -1,0 +1,31 @@
+.banner-footer {
+   width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fdf6ec;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.banner-footer__img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* 📱 Móvil */
+@media (max-width: 768px) {
+  .banner-footer {
+    padding: 0;
+  }
+
+  .banner-footer__img {
+    width: 100%;         /* en móvil sí todo el ancho */
+  }
+}
