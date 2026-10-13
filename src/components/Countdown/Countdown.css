@@ -52,6 +52,10 @@
 
 /* 📱 Móvil */
 @media (max-width: 768px) {
+    .countdown {
+  padding: 0.2rem 0;
+}
+
   .countdown__wrapper {
     aspect-ratio: 900 / 160;
   }

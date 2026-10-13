@@ -5,6 +5,7 @@ import invitation1 from '../../assets/imageprueba.png'
 import Countdown from '../Countdown/Countdown'
 import Legend from '../Legend/Legends'
 import LocationButtons from '../Buttons/Buttons'
+import BannerFamilia from '../Banner/BannerFamilia'
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       </section>
       <Legend />
       <Countdown />
+      <BannerFamilia />
       <LocationButtons />
     </main>
    </>

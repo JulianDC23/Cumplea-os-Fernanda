@@ -1,0 +1,30 @@
+.banner-familia {
+  width: 100%;
+  background: #fdf6ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.banner-familia__img {
+  width: 95%;            /* 👈 casi todo el ancho */
+  max-width: 1100px;     /* 👈 límite en monitores grandes */
+  height: auto;
+  display: block;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* 📱 Móvil */
+@media (max-width: 768px) {
+  .banner-familia {
+    padding: 0.2rem 0.5rem;
+  }
+
+  .banner-familia__img {
+    width: 100%;         /* en móvil sí todo el ancho */
+  }
+}

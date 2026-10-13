@@ -23,12 +23,12 @@
 /* 📱 Móvil */
 @media (max-width: 768px) {
   .legend {
-    padding: 1rem 0.75rem;
-    margin-bottom: 0;
+    padding: 0.6rem 0.75rem;
+    margin-bottom: -0.4rem;
   }
 
   .legend__img {
     width: 95%;
-    margin-bottom: 0;           /* en móvil sí casi todo el ancho */
+    margin-bottom: 0;           
   }
 }
