@@ -8,7 +8,7 @@ function LocationButtons() {
 
         {/* Botón de la ceremonia */}
         <motion.a
-          href="https://www.google.com/maps/@19.2303101,-98.8103623,2304a,90y,152.55h,98.48t/data=!3m7!1e1!3m5!1skmdgDyXPF8gVqS-HQ1S2hA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-8.481557970795649%26panoid%3DkmdgDyXPF8gVqS-HQ1S2hA%26yaw%3D152.55447002312832!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps/place/19%C2%B013'48.8%22N+98%C2%B048'37.4%22W/@19.2306058,-98.8129924,17z/data=!4m4!3m3!8m2!3d19.230231!4d-98.810385?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           className="location__btn"
