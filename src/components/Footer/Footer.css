@@ -21,9 +21,6 @@
 
 /* 📱 Móvil */
 @media (max-width: 768px) {
-  .banner-footer {
-    padding: 0.5rem 0.5rem 1rem;
-  }
 
   .banner-footer__img {
     width: 100%;         /* en móvil sí todo el ancho */
