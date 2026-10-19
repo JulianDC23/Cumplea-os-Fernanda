@@ -24,8 +24,8 @@
 
   .banner-footer__img {
     width: 100%;         /* en móvil sí todo el ancho */
-    height: auto;
-    min-height: 80px;
+    /* height: auto;
+    min-height: 80px; */
     object-fit: contain;
   }
 }
