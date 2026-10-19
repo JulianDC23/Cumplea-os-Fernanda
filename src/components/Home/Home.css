@@ -33,9 +33,30 @@ body,
   object-fit: contain;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-img {
     width: 100%;
     height: auto;
+  }
+} */
+
+@media (max-width: 768px) {
+  .home {
+    width: 100%;
+    min-height: 100svh;
+    overflow-x: clip;
+  }
+
+  .hero {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
 }
