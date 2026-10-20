@@ -8,6 +8,7 @@ import LocationButtons from '../Buttons/Buttons'
 import BannerFamilia from '../Banner/BannerFamilia'
 import Sites from '../Sites/Sites'
 import Footer from '../Footer/Footer'
+import BannerCaballitos from '../Banner Caballito/CaballitosBanner'
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
       <BannerFamilia />
       <Sites />
       <LocationButtons />
+      <BannerCaballitos />
       <Footer />
     </main>
    </>
